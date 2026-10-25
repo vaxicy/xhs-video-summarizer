@@ -1,0 +1,24 @@
+# ---- 本地数据 / 敏感 ----
+# 浏览器扫码登录后的 cookie profile（含会话，绝不能进仓库）
+data/
+# 抓取与分析的产物（视频、转写、总结）
+output/
+# 运行日志 / 临时
+*.log
+*.old
+
+# ---- 环境 ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---- 大文件 / 可下载 ----
+# whisper 模型 141MB，由 setup.py 自动下载，不入库
+bin/models/
+# whisper.cpp 二进制本体（main.exe 等）随系统而异，默认不入库；
+# Windows 用户可把 whisper.cpp 的 main.exe / whisper.dll / SDL2.dll 放进 bin/ 直接复用。
+bin/*.zip
+
+# ---- 工具 ----
+.codebuddy/

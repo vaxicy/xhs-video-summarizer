@@ -1,0 +1,4 @@
+# 小红书视频帖批量列表：每行一个链接，# 开头为注释行
+# 完成后产出在 output/<note_id>/summary.md
+
+https://www.xiaohongshu.com/explore/6adc8161000000003301a710?xsec_token=ABLWg7FYfFIvLUBSdcvAXiKcoCXweBeb7vzU9BB83UcGs=&xsec_source=pc_user

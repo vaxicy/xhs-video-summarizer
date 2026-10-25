@@ -1,0 +1,4 @@
+# Python 依赖（仅 Playwright 是第三方；其余脚本用标准库）。
+# 视觉分析 / 汇总用 urllib.request 直连本机 Ollama，无需额外库。
+# whisper.cpp 是 bin/ 下的二进制，不在此列。
+playwright>=1.40
